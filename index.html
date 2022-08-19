@@ -20,28 +20,28 @@
     <main>
       <div>
         <div class="row">
-          <div class="col">
+          <div class="col-6 col">
             <img class="img-fluid" src="images/money.png" alt="">
           </div>
-          <div class="col custom-bg">
+          <div class="col-6 col custom-bg">
             <div class="input-controller d-flex flex-column align-items-center ">
               <div class="income-container">
                 <h3 class="my-3">Montly Income</h3>
-                <label class="pe-3" for="">Income:</label><input type="text" placeholder="Enter Montly Income">
+                <label class="pe-3" for="">Income:</label><input id="income-field" type="text" placeholder="Enter Montly Income">
               </div>
               <div class="expense-container">
                 <h3 class="my-3">Expense</h3>
-                <label class="pe-3 py-3" for="">Food:</label><input type="text" placeholder="Enter Food Cost"> <br>
-                <label class="pe-3 py-3" for="">Rend:</label><input type="text" placeholder="Enter Rend Cost"> <br>
-                <label class="pe-3 py-3" for="">Colth:</label><input type="text" placeholder="Enter Shopping Cost">
+                <label class="pe-3 py-3" for="">Food:</label><input id="food-field" type="text" placeholder="Enter Food Cost"> <br>
+                <label class="pe-3 py-3" for="">Rend:</label><input id="rend-field" type="text" placeholder="Enter Rend Cost"> <br>
+                <label class="pe-3 py-3" for="">Colth:</label><input id="colths-field" type="text" placeholder="Enter Colths Cost">
                 <div class="text-center">
                   <button id="btn-calculate" class="btn-primary btn">Calculate</button>
                 </div>
                 <h4 class="py-2">Total Expense:  <span id="total-expense"> 0</span></h4>
-                <h4>Balance:  <span id="total-expense"> 0</span></h4>
+                <h4>Balance:  <span id="total-balance"> 0</span></h4>
               </div>
               <div class="saving-container mt-4">
-                <label class="pe-3" for="">Save: </label><input type="tel" name="" id="" placeholder="Eneter save %"><label class="px-4" for="">%</label>
+                <label class="pe-3" for="">Save: </label><input type="tel" name="" id="save-field" placeholder="Enter % Value"><label class="px-4" for="">%</label>
                 <button id="btn-save" class="btn btn-primary">Save</button>
                 <div class="text-center">
                   <h4 class="py-2">Saving Amount:  <span id="total-saving"> 0</span></h4>
